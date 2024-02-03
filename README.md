@@ -56,16 +56,16 @@ Use the following commands to install the required Python libraries:
 
   # Step 3: Update Folder Sharing Settings:
   - If the service account is not listed or does not have the necessary permissions, follow these steps:
-      Locate the Shared Folder:
-          - In Google Drive, navigate to the shared folder.
-          - Right-click on the folder and select "Share" from the context menu.
-          - Add the Service Account:
-          - In the "Share with people and groups" section, enter the email address associated with your service account.
-          - Set the appropriate permissions (at least "Editor" role) for the service account.
-          - Send an Invitation:
-          - If the service account does not yet have access, click on the "Send" button to send an invitation to the service account.
-          - Accept the Invitation:
-          - Access the email associated with your service account and accept the sharing invitation.
+    Locate the Shared Folder:
+      - In Google Drive, navigate to the shared folder.
+      - Right-click on the folder and select "Share" from the context menu.
+      - Add the Service Account:
+      - In the "Share with people and groups" section, enter the email address associated with your service account.
+      - Set the appropriate permissions (at least "Editor" role) for the service account.
+      - Send an Invitation:
+      - If the service account does not yet have access, click on the "Send" button to send an invitation to the service account.
+      - Accept the Invitation:
+      - Access the email associated with your service account and accept the sharing invitation.
           
   # Step 4: Run the script:
        python upload_to_drive.py
