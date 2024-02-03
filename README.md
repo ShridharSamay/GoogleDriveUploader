@@ -55,7 +55,7 @@ Use the following commands to install the required Python libraries:
           Example: target_folder_id = 'FOLDER_ID'
 
   # Step 3: Update Folder Sharing Settings:
-      - If the service account is not listed or does not have the necessary permissions, follow these steps:
+  - If the service account is not listed or does not have the necessary permissions, follow these steps:
       Locate the Shared Folder:
           - In Google Drive, navigate to the shared folder.
           - Right-click on the folder and select "Share" from the context menu.
