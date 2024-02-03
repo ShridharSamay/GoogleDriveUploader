@@ -53,8 +53,21 @@ Use the following commands to install the required Python libraries:
         - file_to_upload: Absolute file path of the file you want to upload to Google Drive.
         - target_folder_id: URL of the Google Drive folder, extract the folder ID from the link (e.g., https://drive.google.com/drive/folders/FOLDER_ID).
           Example: target_folder_id = 'FOLDER_ID'
+
+  # Step 3: Update Folder Sharing Settings:
+      - If the service account is not listed or does not have the necessary permissions, follow these steps:
+      Locate the Shared Folder:
+          - In Google Drive, navigate to the shared folder.
+          - Right-click on the folder and select "Share" from the context menu.
+          - Add the Service Account:
+          - In the "Share with people and groups" section, enter the email address associated with your service account.
+          - Set the appropriate permissions (at least "Editor" role) for the service account.
+          - Send an Invitation:
+          - If the service account does not yet have access, click on the "Send" button to send an invitation to the service account.
+          - Accept the Invitation:
+          - Access the email associated with your service account and accept the sharing invitation.
           
-  # Step 3: Run the script:
+  # Step 4: Run the script:
        python upload_to_drive.py
 
 
