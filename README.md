@@ -55,7 +55,7 @@ Use the following commands to install the required Python libraries:
           Example: target_folder_id = 'FOLDER_ID'
           
   # Step 3: Run the script:
-       - Run the Python script: python upload_to_drive.py
+       python upload_to_drive.py
 
 
 
